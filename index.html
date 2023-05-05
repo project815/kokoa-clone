@@ -7,19 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to kokoaTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1db5abf08.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <!-- <To Do : WifiIcon> -->
+        <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">18:43</div>
       <div class="status-bar__column">
         <span>11%</span>
-        <!-- <Battery Icon> -->
-        <!-- <Lighting Icon> -->
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KokoaClone!</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
   </body>
 </html>

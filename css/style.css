@@ -1,44 +1,75 @@
 /** @format */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
-.body {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
+body {
   font-family: "Open Sans", sans-serif;
 }
 
-.welcome-header {
-  margin-top: 94px;
-  text-align: center;
+.status-bar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.status-bar__wifi {
+  margin-left: 10px;
+}
+.status-bar__battery {
+  margin-right: 10px;
+}
+
+.welcome {
+  display: flex;
+  margin: 90px 0px;
   align-items: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 45px;
-  font-size: 25px;
-  font-weight: 700;
-}
-.welcome-header__text {
-  width: 70%;
-  opacity: 0.8;
-  margin-bottom: 90px;
-}
-
-/* #login-form {
-  display: flex;
   flex-direction: column;
-  margin: 30px;
-} */
+}
+.welcome__title {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.welcome__text {
+  text-align: center;
+  width: 80%;
+  opacity: 0.5;
+}
 
-#login-form {
+.inputlogin {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
-#login-form input {
+.inputlogin input {
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 25px 0px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease-in-out;
+}
+.inputlogin input:focus {
+  border-color: var(--yellow);
+  cursor: pointer;
+}
+.inputlogin input:not([type="submit"]) {
+}
+.inputlogin input[type="submit"] {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  background-color: var(--yellow);
+  padding: 20px;
+}
+
+.inputlogin a {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* #login-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
@@ -71,4 +102,4 @@
   color: inherit;
   margin-top: 40px;
   font-size: 12px;
-}
+} */

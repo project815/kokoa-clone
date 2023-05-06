@@ -9,6 +9,13 @@ body {
 .status-bar {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
+}
+.status-bar__wifi {
+  margin-left: 10px;
+}
+.status-bar__battery {
+  margin-right: 10px;
 }
 
 .welcome {
@@ -22,6 +29,8 @@ body {
   font-size: 30px;
 }
 .welcome__text {
+  text-align: center;
+  width: 80%;
   opacity: 0.5;
 }
 
@@ -40,17 +49,24 @@ body {
   transition: border-color 0.3s ease-in-out;
 }
 .inputlogin input:focus {
-  /* border-bottom: 1px solid rgba(0, 0, 0, 1); */
   border-color: var(--yellow);
+  cursor: pointer;
+}
+.inputlogin input:not([type="submit"]) {
 }
 .inputlogin input[type="submit"] {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
   background-color: var(--yellow);
+  padding: 20px;
 }
 
 .inputlogin a {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 /* #login-form input {

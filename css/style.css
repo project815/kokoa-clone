@@ -1,5 +1,6 @@
 /** @format */
 @import "reset.css";
+@import "variables.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
@@ -37,5 +38,12 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .inputlogin input:focus {
-  border: ;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  border: var(--yellow);
+}
+
+.inputlogin a {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }

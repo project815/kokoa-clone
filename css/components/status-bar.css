@@ -1,6 +1,8 @@
 /** @format */
 
 .status-bar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
@@ -8,9 +10,10 @@
 }
 .status-bar__column {
   width: 33%;
+  margin: 10px 10px;
 }
 .status-bar__column:first-child span {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .status-bar__column:nth-child(2) {
@@ -21,6 +24,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 10px;
 }
 
 .status-bar__column .fa-battery-full {

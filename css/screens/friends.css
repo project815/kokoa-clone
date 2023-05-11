@@ -6,8 +6,13 @@
   align-items: center;
   background-color: #f9f9fa;
   padding: 18px;
+  margin-bottom: 20px;
   font-size: 14px;
 }
 #friend-display-link i {
   color: #81878e;
+}
+
+.friend-screen {
+  padding: 0px var(--horizontal-space);
 }

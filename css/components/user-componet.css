@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
 }
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.7);
+}
 
 .user-component__avatar {
   width: 70px;
@@ -28,13 +31,16 @@
 .user-component__avator--xl {
   width: 70px;
   height: 70px;
+  margin-right: 10px;
 }
 .user-component__avator--sm {
   width: 60px;
   height: 60px;
   border-radius: 20px;
+  margin-right: 10px;
 }
 .user-component__title--not-bold {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  opacity: 0.8;
 }

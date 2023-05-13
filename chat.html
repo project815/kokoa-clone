@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friend</title>
+    <title>Chat</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -29,6 +29,9 @@
           <i class="fa-sharp fa-solid fa-magnifying-glass fa"> </i>
         </span>
         <span>
+          <i class="fa-solid fa-comment-medical fa"></i>
+        </span>
+        <span>
           <i class="fa-solid fa-music fa"></i>
         </span>
         <span>
@@ -36,65 +39,36 @@
         </span>
       </div>
     </header>
-    <a id="friend-display-link">
-      <i class="fa-solid fa-circle-info"></i>
-      Friends' Name Display
-      <i class="fa-solid fa-chevron-right"></i>
-    </a>
 
-    <main class="friend-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynwv-5qtogtOwJbIjaPFJUmHpzhxgqIAug&usqp=CAU"
-            class="user-component__avatar user-component__avator--xl"
+            class="user-component__avatar user-component__avator"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
-            <!-- <div class="user-component__subtitle">This is Something Whatever</div> -->
+            <div class="user-component__subtitle">
+              Please check my kokoa account Info.
+            </div>
           </div>
         </div>
         <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span> Channel </span>
-          <i class="fa-solid fa-chevron-up"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynwv-5qtogtOwJbIjaPFJUmHpzhxgqIAug&usqp=CAU"
-              class="user-component__avatar user-component__avator--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!-- <div class="user-component__subtitle">This is Something Whatever</div> -->
-            </div>
-          </div>
-
-          <div class="user-component__column">
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
       </div>
     </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friend.html"
-            ><i class="fa-solid fa-user fa-2x"></i>
+          <a class="nav__link" href="friend.html">
+            <i class="fa-regular fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html">
-            <span class="nav__notification">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
+            <span class="nav__notification">1</span
+            ><i class="fa-solid fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

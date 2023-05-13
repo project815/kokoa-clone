@@ -15,6 +15,7 @@
   width: 70px;
   height: 70px;
   border-radius: 24px;
+  margin-right: 10px;
 }
 .user-component__title {
   font-size: 22px;
@@ -31,13 +32,11 @@
 .user-component__avator--xl {
   width: 70px;
   height: 70px;
-  margin-right: 10px;
 }
 .user-component__avator--sm {
   width: 60px;
   height: 60px;
   border-radius: 20px;
-  margin-right: 10px;
 }
 .user-component__title--not-bold {
   font-size: 20px;

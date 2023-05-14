@@ -3,8 +3,6 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .find-icon__icon {
@@ -16,4 +14,25 @@
 .find-icon__icon span {
   margin-top: 18px;
   font-weight: 600;
+}
+
+.recommended-friends {
+  margin: 18px 0px;
+  padding: 18px 0px;
+
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friedns_title {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 80px 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }

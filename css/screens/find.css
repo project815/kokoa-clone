@@ -71,6 +71,18 @@
   margin-right: 7px;
 }
 
-.open-post__members-coun {
+.open-post__members-count {
+  opacity: 0.5;
   font-size: 18px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__members-status {
+  color: #ffb0e0;
 }

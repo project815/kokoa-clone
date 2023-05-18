@@ -1,21 +1,5 @@
 /** @format */
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icon__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icon__icon span {
-  margin-top: 18px;
-  font-weight: 600;
-}
-
 .recommended-friends {
   margin: 18px 0px;
   padding: 18px 0px;

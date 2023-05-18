@@ -1,0 +1,10 @@
+/** @format */
+
+.more-screen .icon-row {
+  margin: 30px 0px;
+}
+
+.more-suggestions {
+  border-top: var(--main-border);
+  padding: 20px;
+}

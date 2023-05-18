@@ -6,5 +6,39 @@
 
 .more-suggestions {
   border-top: var(--main-border);
-  padding: 20px;
+  padding: 20px 0px;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.more-suggestion__icons {
+  display: flex;
+}
+.more-suggestion__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.more-suggestion__icon-image {
+  width: 50px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestion__icon-image i {
+  font-size: 20px;
+  color: white;
+}
+
+.more-suggestion__icon--text {
+  font-size: 12px;
 }

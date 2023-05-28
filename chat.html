@@ -6,10 +6,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat</title>
+    <title>Chat w/ Nico - Kokoa Clone</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,77 +23,29 @@
         <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chat</h1>
-      <div class="screen-header__icons">
-        <span>
-          <i class="fa-sharp fa-solid fa-magnifying-glass fa"> </i>
-        </span>
-        <span>
-          <i class="fa-solid fa-comment-medical fa"></i>
-        </span>
-        <span>
-          <i class="fa-solid fa-music fa"></i>
-        </span>
-        <span>
-          <i class="fa-solid fa-gear fa"></i>
-        </span>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-2x"></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">니꼬</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
       </div>
     </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June, 30, 2020</div>
 
-    <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynwv-5qtogtOwJbIjaPFJUmHpzhxgqIAug&usqp=CAU"
-            class="user-component__avatar user-component__avator"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <div class="user-component__subtitle">
-              Please check my kokoa account Info.
-            </div>
+      <div class="message-row">
+        <img src="" />
+        <div class="message-row__content">
+          <span class="message__author">Nicolas</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
           </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynwv-5qtogtOwJbIjaPFJUmHpzhxgqIAug&usqp=CAU"
-            class="user-component__avatar user-component__avator"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <div class="user-component__subtitle">
-              Please check my kokoa account Info.
-            </div>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynwv-5qtogtOwJbIjaPFJUmHpzhxgqIAug&usqp=CAU"
-            class="user-component__avatar user-component__avator"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <div class="user-component__subtitle">
-              Please check my kokoa account Info.
-            </div>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -106,13 +59,13 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html">
-            <span class="badge nav__notification">1</span
-            ><i class="fa-solid fa-comment fa-2x"></i>
+            <span class="badge nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html">
-            <i class="fa-sharp fa-solid fa-magnifying-glass fa-2x"></i>
+            <i class="fa-sharp fa-solid fa-magnifying-glass-plus fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -126,7 +79,7 @@
 
     <script
       src="https://kit.fontawesome.com/d1db5abf08.js"
-      crossorigin="anonymous"
+      crossorigin="anonymouss"
     ></script>
   </body>
 </html>

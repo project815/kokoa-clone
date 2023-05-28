@@ -1,3 +1,5 @@
+/** @format */
+
 #friends-display-link {
   text-align: center;
   display: block;
@@ -38,7 +40,15 @@
     visibility: hidden;
   }
 }
-
+@keyframes hideSplashScreen__channel {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
@@ -48,7 +58,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
-  animation: hideSplashScreen 0.3s ease-in-out forwards;
-  animation-delay: 0.3s;
+  font-size: 70px;
+  animation: hideSplashScreen__channel 1s ease-in-out forwards;
 }

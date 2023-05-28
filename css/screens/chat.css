@@ -80,7 +80,18 @@
   display: flex;
   align-items: flex-end;
 }
-
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  margin-left: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
 /* 
 .main-chat {
   margin-top: 180px;
